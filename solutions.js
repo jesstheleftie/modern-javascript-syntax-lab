@@ -30,12 +30,12 @@ console.log(model);
 
 //Excercise 4
 
-const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+const pizzaToppings = ["Pineapple", "Olives", "Anchovies"];
 const duplicatePizzaToppings = [...pizzaToppings];
-console.log(duplicatePizzaToppings)
+console.log(duplicatePizzaToppings);
 const controversialPizzaToppings = duplicatePizzaToppings;
 
-console.log(controversialPizzaToppings)
+console.log(controversialPizzaToppings);
 
 //Excercise 5
 
@@ -71,11 +71,11 @@ function describePet(noun = "cat", adjective = "white") {
 describePet();
 describePet("dog", "black");
 
-Excercise 9
+//Excercise 9
 
-let pizza = 'tasty';
+let pizza = "tasty";
 
-pizza = 'tasty' ? console.log('yum') : console.log('yuck')
+pizza === "tasty" ? console.log("yum") : console.log("yuck");
 
 //Excercise 10
 
